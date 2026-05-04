@@ -22,7 +22,6 @@ body {
     flex-direction: column;
 }
 
-/* Меню сверху */
 .calc-menu {
     display: flex;
     justify-content: space-around;
@@ -52,11 +51,9 @@ body {
     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
-/* Скрытие неактивных режимов */
 .mode-content { display: none; }
 .mode-content.active { display: block; }
 
-/* Дизайн экрана (как в Samsung) */
 .display-container { text-align: right; padding: 10px 5px; margin-bottom: 10px; width: 100%; }
 #expression-preview { color: #888; font-size: 16px; min-height: 22px; word-wrap: break-word; }
 #display { 
@@ -64,7 +61,6 @@ body {
     font-size: 42px; font-weight: 300; background: transparent; color: #000;
 }
 
-/* Кнопки калькулятора */
 .buttons { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; justify-items: center; }
 button { 
     border: none; height: 62px; width: 62px; border-radius: 50%; 
@@ -78,11 +74,9 @@ button:active { transform: scale(0.92); background: #e0e0e0; }
 .func { color: #e91e63; font-size: 15px; font-weight: 500; }
 .equal { background: #ff9500; color: white; }
 
-/* История */
 .history-section { margin-top: 12px; border-top: 1px solid #eee; max-height: 90px; overflow-y: auto; }
 li { list-style: none; color: #888; font-size: 12px; padding: 4px 0; border-bottom: 1px dashed #eee; }
 
-/* Стили конвертеров */
 .converter-box { padding: 10px 5px; display: flex; flex-direction: column; gap: 15px; }
 .converter-box h3 { margin: 0; font-weight: 400; color: #333; font-size: 18px; }
 .converter-box input {
@@ -100,7 +94,6 @@ li { list-style: none; color: #888; font-size: 12px; padding: 4px 0; border-bott
     padding: 10px 0; border-bottom: 1px solid #f1f1f1; min-height: 55px; word-wrap: break-word;
 }
 
-/* Мобильный адаптив */
 @media (max-width: 480px) {
     body { background-color: #ffffff; padding: 10px; align-items: flex-start; }
     .calculator { box-shadow: none; padding: 5px; max-width: 100%; border-radius: 0; }
