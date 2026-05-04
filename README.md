@@ -1,1 +1,1 @@
-# college-practice
+# Практика Колледжа
